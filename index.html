@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apollo Demirel's Portfolio</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/d83d95243b.js"></script>
+
 </head>
 <body>
 
@@ -17,6 +27,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+        </nav>
     </header>
 
     <!-- Home page -->
@@ -36,8 +47,30 @@
     <section id="projects">
         <h2>My projects</h2>
 
-        <a href="https://badermah.github.io/bulletin-bored/" target="_blank">
+        <div class="col-xs-12 col-sm-12 col-lg-4 mb-4">
+            <div class="card text-center h-100">
+                <img src="Assets/images/bulletin_bored.png" class="card-img-top border-bottom" alt="Screenshot of Bulletin-Bored app">
+                <div class="card-body mb-5 pl-0">
+                    <h3>Bulletin Bored</h3>
+                    <p class="card-text">This app helps users to discover a random activity and watch videos about it.</p>
+                    <p class="card-text"><small>Tech and tools used include HTML, CSS, and JavaScript.</small></p>
+                    <div class="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                        <a href="https://badermah.github.io/bulletin-bored" target="_blank" class="btn mr-2">
+                            <img src="Assets/images/laptop-code-solid.svg" alt="Laptop icon"> Live App</a>
+                        <a href="https://github.com/Badermah/bulletin-bored" target="_blank" class="btn mr-2">
+                            <img src="Assets/images/github.svg" alt="GitHub Logo"> GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <a href="https://badermah.github.io/bulletin-bored/" target="_blank">
             <section id="project1">
+                <img src="Assets/images/bulletin-bored.png" alt="Bulletin-Bored app">
                 <h3>Bulletin-Bored</h3>
                 <p>This app helps you discover a random activity and watch videos about it.</p>
             </section>
@@ -48,7 +81,7 @@
                 <h3>My Rich Life</h3>
                 <p>This app allows users to manifest their financial goals and envision their rich life.</p>
                 </section>
-            </a>
+            </a> -->
 
     </section>
 
