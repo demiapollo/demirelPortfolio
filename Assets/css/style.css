@@ -24,3 +24,9 @@ ul {
 li {
     padding: 10px 10px;
 }
+
+li a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
