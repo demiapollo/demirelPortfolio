@@ -34,6 +34,8 @@ li a {
 }
 
 
+/* home section */
+
 #home {
     display: flex;
     flex-direction: column;
@@ -51,10 +53,18 @@ li a {
     margin-top: 2em;
 }
 
+#home-content p {
+    font-size: larger;
+    font-weight: bold;
+    margin: 1em 2em;
+}
+
 #home img {
     height: 20em;
     width: 20em;
     border-radius: 50%;
     display: inline-block;
     position: relative;
+    margin: 1em 2em;
 }
+
