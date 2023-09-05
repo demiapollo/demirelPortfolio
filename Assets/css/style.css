@@ -92,9 +92,11 @@ li a {
 #projects {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px;
+    padding: px 10px;
 }
 
 #projects a:hover {
@@ -107,5 +109,5 @@ li a {
   width: 35px;
   height: 35px;
   object-fit: contain;
-  margin: 1em;
+  /* margin: 1em; */
 }
