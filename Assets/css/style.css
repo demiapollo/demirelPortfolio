@@ -96,7 +96,7 @@ li a {
     height: fit-content;
     justify-content: center;
     align-items: center;
-    padding: px 10px;
+    padding: 10px 5px;
 }
 
 #projects a:hover {
@@ -110,4 +110,8 @@ li a {
   height: 35px;
   object-fit: contain;
   /* margin: 1em; */
+}
+
+#projects img {
+    height: 50%;
 }
