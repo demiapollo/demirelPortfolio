@@ -101,6 +101,8 @@ li a {
 
 #project-cards {
     justify-content: center;
+    align-self: stretch;
+    flex: 1 1 auto;
 }
 
 #projects span a {
@@ -117,6 +119,7 @@ li a {
   width: 35px;
   height: 35px;
   object-fit: contain;
+  /* margin: 1em; */
 }
 
 #projects a:hover {
