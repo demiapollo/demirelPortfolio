@@ -2,8 +2,6 @@
     font-family: 'Cormorant Garamond', serif, 'sans serif';
 }
 
-
-
 h1 {
     font-size: xx-large;
     font-weight: bolder;
@@ -33,9 +31,7 @@ li a {
     font-weight: bold;
 }
 
-
 /* home section */
-
 #home {
     display: flex;
     flex-direction: column;
@@ -68,3 +64,26 @@ li a {
     margin: 1em 2em;
 }
 
+/* About Me Section */
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10em 30em;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 2em;
+}
+
+#about-me h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px 10px;
+}
+
+#about-me p {
+    font-size: larger;
+    font-weight: bold;
+    margin: 1em 2em;
+}
