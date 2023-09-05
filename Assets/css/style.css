@@ -96,3 +96,16 @@ li a {
     align-items: center;
     padding: 10px 10px;
 }
+
+#projects a:hover {
+    border: 3px solid rgb(141, 200, 230);
+    opacity: 4;
+    background-color: antiquewhite;
+}
+
+#projects a img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin: 1em;
+}
