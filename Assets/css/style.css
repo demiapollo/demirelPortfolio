@@ -99,10 +99,14 @@ li a {
     padding: 10px 5px;
 }
 
-#projects a:hover {
-    border: 3px solid rgb(141, 200, 230);
-    opacity: 4;
-    background-color: antiquewhite;
+#projects span a {
+    text-decoration: none;
+}
+
+#projects span a:hover {
+    border: 0;
+    opacity: none;
+    background-color: white;
 }
 
 #projects a img {
@@ -110,6 +114,12 @@ li a {
   height: 35px;
   object-fit: contain;
   /* margin: 1em; */
+}
+
+#projects a:hover {
+    border: 3px solid rgb(141, 200, 230);
+    opacity: 4;
+    background-color: antiquewhite;
 }
 
 #projects img {
