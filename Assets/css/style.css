@@ -96,7 +96,11 @@ li a {
     height: fit-content;
     justify-content: center;
     align-items: center;
-    padding: 10px 5px;
+    /* padding: 10px 15px; */
+}
+
+#project-cards {
+    justify-content: center;
 }
 
 #projects span a {
@@ -113,7 +117,6 @@ li a {
   width: 35px;
   height: 35px;
   object-fit: contain;
-  /* margin: 1em; */
 }
 
 #projects a:hover {
