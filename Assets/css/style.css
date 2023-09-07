@@ -96,7 +96,6 @@ li a {
     height: fit-content;
     justify-content: center;
     align-items: center;
-    /* padding: 10px 15px; */
 }
 
 #project-cards {
@@ -119,7 +118,6 @@ li a {
   width: 35px;
   height: 35px;
   object-fit: contain;
-  /* margin: 1em; */
 }
 
 #projects a:hover {
@@ -130,4 +128,22 @@ li a {
 
 #projects img {
     height: 50%;
+}
+
+/* Contact me section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 3em 30em; */
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 2em;
+}
+
+#contact img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
 }
