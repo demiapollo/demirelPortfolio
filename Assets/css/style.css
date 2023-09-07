@@ -149,3 +149,10 @@ li a {
     object-fit: contain;
     
 }
+
+/* Footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
