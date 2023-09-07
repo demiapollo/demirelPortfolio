@@ -45,6 +45,7 @@ li a {
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
+    background-color: rgb(202, 237, 237);
 }
 
 #home-content {
@@ -81,6 +82,7 @@ li a {
     flex-wrap: wrap;
     text-align: center;
     line-height: 2em;
+    background-color: rgb(249, 249, 249);
 }
 
 #about-me p {
@@ -97,12 +99,13 @@ li a {
     height: fit-content;
     justify-content: center;
     align-items: center;
+    background-color: rgb(202, 237, 237)
 }
 
 #project-cards {
     justify-content: center;
     align-self: stretch;
-    flex: 1 1 auto;
+    flex: 1 1 0;
 }
 
 #projects span a {
@@ -141,6 +144,7 @@ li a {
     flex-wrap: wrap;
     text-align: center;
     line-height: 2em;
+    background-color: rgb(249, 249, 249);
 }
 
 #contact img {
