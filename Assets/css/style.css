@@ -74,6 +74,10 @@ li a {
     margin: 1em 2em;
 }
 
+/* .fa-solid {
+    align-self: center;
+}  */
+
 /* About Me Section */
 #about-me {
     display: flex;
