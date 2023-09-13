@@ -125,8 +125,9 @@ nav {
 
 #project-cards {
     justify-content: center;
-    align-self: stretch;
-    flex: 1 1 0;
+    /* align-self: stretch; */
+    /* flex: 1 1 0; */
+    /* height: 50px; */
 }
 
 #projects span a {
@@ -152,7 +153,7 @@ nav {
 }
 
 #projects img {
-    height: 50%;
+    min-height: fit-content;
 }
 
 /* Contact me section */
