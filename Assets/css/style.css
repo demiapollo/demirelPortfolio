@@ -12,6 +12,8 @@ h2 {
     font-size: xx-large;
     font-weight: bolder;
     padding: 10px 10px;
+    align-self: center;
+    align-items: flex-start;
 }
 
 header {
@@ -97,12 +99,16 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3em 30em;
-    flex-wrap: wrap;
-    text-align: center;
+    
     line-height: 2em;
     background-color: rgb(249, 249, 249);
     height: 100vh;
+}
+
+.about-me-text {
+    margin: 3em 16em;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 #about-me p {
@@ -126,9 +132,6 @@ nav {
 
 #project-cards {
     justify-content: center;
-    /* align-self: stretch; */
-    /* flex: 1 1 0; */
-    /* height: 50px; */
 }
 
 #projects span a {
