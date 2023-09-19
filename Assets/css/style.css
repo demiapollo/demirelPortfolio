@@ -197,3 +197,19 @@ footer {
     justify-content: center;
     padding: 1em;
 }
+
+/* Making the website responsive */
+/* @media screen and (max-width: 800px) {
+    #projects {
+        overflow: scroll;
+        flex-shrink: inherit;
+    }
+    
+    #projects card {
+        width: 20%;
+        height: 1vw;
+        object-fit: contain;
+      }
+
+
+} */
